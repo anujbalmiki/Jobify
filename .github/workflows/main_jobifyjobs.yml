@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'JobifyJobs'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BBC23465A7D347AC9627A91687044D1E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7210D82C29640C28D4F4EEF74EFF895 }}
           package: .
