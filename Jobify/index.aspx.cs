@@ -13,5 +13,7 @@ public partial class index : System.Web.UI.Page
         {
             Response.Write("");
         }
+        String coock = Request.Cookies["uemail"].Value;
+        Response.Write(coock);
     }
 }

@@ -20,6 +20,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
     { 
         Session.Remove("uemail");
         Session.RemoveAll();
+        Response.Cookies.Clear();
         Response.Redirect("index.aspx");
     }
 }
